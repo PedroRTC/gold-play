@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #232317;
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+  background-color: #232317;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../img/fundo-hearder.png");
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 90%;
+  padding: 20px 0px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 30px;
+}
+
+.desc-header {
+  font-family: "Barlow Condensed", sans-serif;
+  width: 100%;
+  line-height: 35px;
+}
+
+.estrelas-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 12pt;
+  color: gold;
+}
+
+.estrela-cinza {
+  color: gray;
+}
+
+.container_logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.nome_logo {
+  font-size: 14pt;
+  color: gold;
+  letter-spacing: 1px;
+  line-height: 15px;
+  font-family: "Righteous", cursive;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  padding: 0px 3px;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+
+.container_menu {
+  width: 550px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  text-decoration: none;
+  color: white;
+  font-family: "Lexend", sans-serif;
+  font-size: 9pt;
+  transition: all 0.5s;
+}
+
+.item:hover {
+  color: gold;
+  transform: scale(1.1);
+}
+
+.container-pesquisaContato {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 320px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container-pesquisa {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  align-items: center;
+}
+
+#input-pesquisa {
+  padding: 5px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  color: gold;
+}
+
+.fa-search {
+  transform: scale(1.1);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.fa-search:hover {
+  transform: scale(1.2);
+}
+
+.button_contato {
+  border: none;
+  font-family: "Lexend", sans-serif;
+  background-color: gold;
+  color: black;
+  width: 100px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 10pt;
+  border-radius: 2px;
+  margin: 0px 10px;
+}
+
+.containerFilter {
+  position: fixed;
+  text-align: center;
+  top: 60px;
+  margin-left: -10px;
+  width: 340px;
+  height: 70%;
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: auto;
+}
+
+.containerFilter::-webkit-scrollbar {
+  width: 2px;
+}
+
+.containerFilter::-webkit-scrollbar-thumb {
+  background-color: gold;
+}
+
+.containerFilmeFilter {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px dashed gold;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.containerFilmeFilter:hover {
+  background-color: #232317;
+}
+
+.descFilmeFilter {
+  margin: auto;
+  text-align: left;
+  color: white;
+  font-family: "Lexend", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.descFilmeFilter i {
+  color: gold;
+}
+
+.descFilmeFilter span {
+  color: gray;
+}
+
+.imgFilter {
+  width: 60px;
+  height: 80px;
+  display: inline-block;
+}
+
+.container-header h1 {
+  font-size: 35pt;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.container-header p {
+  letter-spacing: 3px;
+  color: white;
+}
+
+.button_card_header {
+  padding: 10px 0px;
+  display: flex;
+  gap: 50px;
+}
+
+.button_card_header button {
+  width: 110px;
+  height: 30px;
+  cursor: pointer;
+  font-family: "Lexend", sans-serif;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+
+.button_Assistir_header {
+  background-color: gold;
+  border: none;
+}
+
+.button_Assistir_header:hover {
+  background-color: rgb(196, 167, 1);
+  transform: scale(1.1);
+}
+
+.button_trailer {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.button_trailer:hover {
+  color: gold;
+  border: 2px solid gold;
+  transform: scale(1.1);
+}
+
+.video-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  z-index: -1;
+  transform: scaley(1.1);
+}
+
+.selection {
+  transition: all 0.3s;
+  color: gold;
+}
+
+.container_filme {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.39);
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_filme {
+  text-align: center;
+  width: 70%;
+  height: 70%;
+  background-color: #232317;
+  transform: scale(0.3);
+  transition: all 0.5s;
+  padding: 10px 5px;
+}
+
+.section_filme {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button_fecha {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/botao-x.png");
+  background-size: cover;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button_fecha:hover {
+  transform: rotateZ(360deg);
+}
+
+.filme_header {
+  width: 90%;
+  height: 85%;
+  background-color: black;
+}

@@ -1,0 +1,186 @@
+[
+    {
+        "capa":"img/img-acao/1.png",
+        "fundo":"img/img-acao/fundo1.png",
+        "title":"Até o Último Homem",
+        "sinospe": "Durante a Segunda Guerra Mundial, o médico do exército Desmond T. Doss se recusa a pegar em uma arma e matar pessoas, porém, durante a Batalha de Okinawa ele trabalha na ala médica e salva mais de 75 homens, sendo condecorado. O que faz de Doss o primeiro Opositor Consciente da história norte-americana a receber a Medalha de Honra do Congresso.",
+        "ano":"2016",
+        "generos":"Biografia / Drama / Histórico / Guerra",
+        "categoria":"ação",
+        "idioma":"Português",
+        "duracao":"2h 19 Minutos",
+        "filme": "../videos/filme-acao/ultimo-homem.mp4",
+        "estrela":"8.1"
+
+    },
+
+    {
+        "capa":"img/img-acao/2.png",
+        "fundo":"img/img-acao/fundo2.png",
+        "title":"Armadilha Explosiva",
+        "sinospe": "Em um estacionamento parisiense, Sonia se vê presa em seu carro com seu filho e a filha de seu namorado Fred, que foi deixado do lado de fora, impotente para lidar com a situação: uma mina antitanque foi colocada embaixo do carro.",
+        "ano":"2022",
+        "generos":"Drama / Mistério / Suspense",
+        "categoria":"ação",
+        "idioma":"Português",
+        "duracao":"1h 30 Minutos",
+        "filme": "../videos/filme-acao/Armadilha Explosiva.mkv",
+        "estrela":"7"
+    },
+
+    {
+        "capa":"img/img-acao/3.png",
+        "fundo":"img/img-acao/fundo3.png",
+        "title":"Treze Vidas O Resgate",
+        "sinospe": "Uma missão de resgate é montada na Tailândia, onde um grupo de meninos e seu treinador de futebol estão presos em um sistema de cavernas inundadas e impenetrável. Baseado em uma história real.",
+        "ano":"2022",
+        "generos":"Ação / Aventura / Biografia",
+        "categoria":"ação",
+         "idioma":"Português",
+         "duracao":"2h 27 Minutos",
+        "filme": "../videos/filme-acao/TRZVDSORSGTE.mp4",
+        "estrela":"7.8"
+    },
+
+    {
+        "capa":"img/img-acao/4.png",
+        "fundo":"img/img-acao/fundo4.png",
+        "title":"Samaritano",
+        "sinospe": "Baseado em uma ideia original, o thriller se concentra em um garoto que está prestes a descobrir se um super-herói mítico, que desapareceu 20 anos antes de um evento trágico, ainda está vivo.",
+        "ano":"2022",
+        "generos":"Ação / Drama / Fantasia",
+        "categoria":"ação",
+        "idioma":"Português",
+        "duracao":"1h 39 Minutos",
+        "filme": "../videos/filme-acao/SMRTNO.mp4",
+        "estrela":"8"
+    },
+
+    {
+        "capa":"img/img-acao/5.png",
+        "fundo":"img/img-acao/fundo5.png",
+        "title":"Caçando Ava Bravo",
+        "sinospe": " Buddy King, um bilionário excêntrico, passo seu tempo caçando pessoas escondido nas montanhas nevadas. Mas sua última vítima, Ava Bravo, não será um alvo fácil",
+        "ano":"2022",
+        "generos":"Ação / Suspense",
+        "categoria":"ação",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 30 Minutos",
+        "filme": "../videos/filme-acao/CANCDOAVBRNV.mp4",
+        "estrela":"9.1"
+    },
+
+    {
+        "capa":"img/img-acao/6.png",
+        "fundo":"img/img-acao/fundo6.png",
+        "title":"Contrato Perigoso",
+        "sinospe": " Depois de ser dispensado involuntariamente dos fuzileiros navais, James Harper se junta a uma organização paramilitar para sustentar sua família da única maneira que ele sabe. Reed viaja para a Polônia com sua equipe de elite em uma missão de operações para investigar uma misteriosa ameaça. Em sua primeira missão, Reed se encontra sozinho e caçado na Europa Oriental, onde ele deve lutar para permanecer vivo por tempo suficiente para chegar em casa e descobrir os verdadeiros motivos daqueles que o traíram.",
+        "ano":"2022",
+        "generos":"Ação / Suspense",
+        "categoria":"ação",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 43 Minutos",
+        "filme": "../videos/filme-acao/CNTRTOPRGSO.mp4",
+        "estrela":"8.3"
+    },
+
+    {
+        "capa":"img/img-comedia/1.png",
+        "fundo":"img/img-comedia/fundo1.png",
+        "title":"King – Meu Melhor Amigo",
+        "sinospe": "O que você faria se um filhote de leão aparecesse em seu quarto? Os irmãos Inés e Alex, enfrentam esse dilema quando encontram King, um filhote traficado que foge de um aeroporto e encontra refúgio em sua casa.",
+        "ano":"2022",
+        "generos":"Aventura / Comédia / família",
+        "categoria":"comedia",
+        "idioma":"Português",
+        "duracao":"1h 39 Minutos",
+        "filme": "../videos/filme-comedia/KNGMEUMLHRAMG.mp4",
+        "estrela":"6.6"
+    
+    },
+    
+    {
+        "capa":"img/img-comedia/2.png",
+        "fundo":"img/img-comedia/fundo2.png",
+        "title":"De Férias da Família",
+        "sinospe": "A trama besteirol segue um pai que acabou deixando a vida social de lado após ter filhos, e agora tira uma folga da família para deixar a cabeça mais leve. Quando a família toda viaja, esse pai dono de casa se depara com um tempo só para ele. Seu melhor amigo das antigas reaparece e eles aproveitam um final de semana épico, que quase vira a vida dele de cabeça para baixo.",
+        "ano":"2022",
+        "generos":"Comédia",
+        "categoria":"comedia",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 41 Minutos",
+        "filme": "../videos/filme-comedia/DFRSDFMLIA.mp4",
+        "estrela":"7.2"
+    
+    },
+    
+    {
+        "capa":"img/img-comedia/3.png",
+        "fundo":"img/img-comedia/fundo3.png",
+        "title":"Jerry e Marge Tiram a Sorte Grande",
+        "sinospe": "Baseado na história real sobre o casal Jerry e Marge Selbee, que ganhou na loteria e usou o dinheiro para reviver sua pequena cidade.",
+        "ano":"2022",
+        "generos":"Biografia / Comédia / Drama",
+        "categoria":"comedia",
+        "idioma":"Português / Inglês",
+        "duracao":"1 h 36 Minutos",
+        "filme": "../videos/filme-comedia/JRYEMRGTRMASRTGRND.mp4",
+        "estrela":"7.4"
+    
+    },
+    
+    
+    {
+        "capa":"img/img-comedia/4.png",
+        "fundo":"img/img-comedia/fundo4.png",
+        "title":"Arremessando Alto - Hustle",
+        "sinospe": "Depois de ser demitido, o olheiro profissional do basquete, Stanley Beren, fica empolgado, pela primeira vez em muito tempo, quando descobre por acaso o jogador amador espanhol, Bo Cruz, jogando em um parque nos arredores de Madri.",
+        "ano":"2022",
+        "generos":" Comédia / Drama / Esporte",
+        "categoria":"comedia",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 57 Minutos",
+        "filme": "../videos/filme-comedia/ARMSNDOALT.mp4",
+        "estrela":"8"
+    
+    },
+    
+    
+    {
+        "capa":"img/img-comedia/5.png",
+        "fundo":"img/img-comedia/fundo5.png",
+        "title":"Cidade Perdida",
+        "sinospe": " Uma romancista reclusa tinha certeza de que nada poderia ser pior do que ficar presa em uma turnê do livro com seu modelo de capa, até que uma tentativa de sequestro leva os dois para uma aventura na selva, provando que a vida pode ser muito mais estranha - e mais romântica - do que qualquer uma de suas ficções.",
+        "ano":"2022",
+        "generos":" Ação / Aventura / Comédia",
+        "categoria":"comedia",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 52 Minutos",
+        "filme": "../videos/filme-comedia/CIDADPRDA.mp4",
+        "estrela":"7"
+    
+    },
+    
+    {
+        "capa":"img/img-comedia/6.png",
+        "fundo":"img/img-comedia/fundo6.png",
+        "title":"Amor Com Fetiche",
+        "sinospe": "Um trabalhador de escritório aparentemente limpo mantém suas fantasias sexuais BDSM para si mesmo, até que ele descobre que sua colega de trabalho é uma dominatrix em potencial…. À medida que passam o tempo juntos e se entendendo os dois acabam tendo uma relação de mestre e servo bastante única. O webtoon retrata o amor entre homens e mulheres com gostos únicos, foi serializado na plataforma webtoon 'Comico' e se tornou muito popular entre as leitoras na faixa dos 20 ou 30 anos.",
+        "ano":"2022",
+        "generos":"Comédia / Romance",
+        "categoria":"comedia",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 57 Minutos",
+        "filme": "../videos/filme-comedia/AMRCMFTCH.mp4",
+        "estrela":"8"
+    
+    }
+
+
+]
+
+
+
+
+
+
