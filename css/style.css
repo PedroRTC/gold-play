@@ -91,10 +91,11 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 65px;
+  height: 55px;
   justify-content: space-around;
   align-items: center;
   z-index: 2;
+  transition:all 0.3s;
 }
 
 .container_menu {
@@ -175,7 +176,7 @@ nav {
 .containerFilter {
   position: fixed;
   text-align: center;
-  top: 60px;
+  top: 55px;
   margin-left: -10px;
   width: 340px;
   height: 70%;
@@ -185,6 +186,7 @@ nav {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: auto;
+
 }
 
 .containerFilter::-webkit-scrollbar {
@@ -204,7 +206,7 @@ nav {
 }
 
 .containerFilmeFilter:hover {
-  background-color: #232317;
+  background-color: rgba(255, 217, 0, 0.092);
 }
 
 .descFilmeFilter {
@@ -287,7 +289,6 @@ nav {
   height: 100vh;
   display: none;
   z-index: -1;
-  transform: scaley(1.1);
 }
 
 .selection {

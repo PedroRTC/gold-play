@@ -1,5 +1,4 @@
 let header = document.querySelector("header");
-let item = document.querySelectorAll(".item");
 let button_trailer = document.querySelector(".button_trailer");
 let trailer_video = document.querySelector(".video-header");
 let buttonPesquisa = document.querySelector(".fa-search");
@@ -81,31 +80,6 @@ function trailer() {
 }
 trailer();
 
-function selection_item_menu() {
-  for (const iterator of item) {
-    iterator.addEventListener("click", selection_item);
-
-    function selection_item() {
-      iterator.classList.add("selection");
-      iterator.addEventListener("click", remove_item(iterator));
-
-      video.load();
-      video.pause();
-    }
-  }
-
-  function remove_item(iterator) {
-    let item_selection = document.querySelectorAll(".item");
-
-    for (const it of item_selection) {
-      if (it) {
-        it.classList.remove("selection");
-        iterator.classList.add("selection");
-      }
-    }
-  }
-}
-selection_item_menu();
 
 function passarFilme() {
   for (let index = 0; index < button_direita.length; index++) {

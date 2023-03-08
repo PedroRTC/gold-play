@@ -88,6 +88,7 @@ function pesquisaFilmes() {
 
     containerFilmeFilter.addEventListener("click", () => {
       chamaSecaoFilme(filme);
+        
     });
   });
 
