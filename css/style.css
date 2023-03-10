@@ -32,6 +32,7 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .container-header {
@@ -124,7 +125,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 5px;
-  width: 320px;
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -146,7 +146,7 @@ nav {
   border-radius: 10px;
   border: none;
   background-color: transparent;
-  color: gold;
+  color:gainsboro;
 }
 
 .fa-search {
@@ -165,11 +165,10 @@ nav {
   font-family: "Lexend", sans-serif;
   background-color: gold;
   color: black;
-  width: 100px;
   height: 32px;
+  width: 100px;
   cursor: pointer;
   font-size: 10pt;
-  border-radius: 2px;
   margin: 0px 10px;
 }
 
@@ -178,7 +177,7 @@ nav {
   text-align: center;
   top: 55px;
   margin-left: -10px;
-  width: 340px;
+  width: 359px;
   height: 70%;
   background-color: black;
   color: white;

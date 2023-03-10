@@ -1,5 +1,7 @@
 let container_acao = document.querySelector(".container_acao");
 let container_comedia = document.querySelector(".container_comedia");
+let container_animacao = document.querySelector(".container_animacao");
+
 let div_erro = document.querySelectorAll(".div_erro");
 
 let containerPesquisaContato = document.querySelector(
@@ -57,6 +59,10 @@ function geraFilme() {
       container_comedia.appendChild(card);
     }
 
+    if (filme.categoria == "animacao") {
+      container_animacao.appendChild(card);
+    }
+
     container_button.addEventListener("click", () => {
       chamaSecaoFilme(filme);
     });
@@ -88,7 +94,6 @@ function pesquisaFilmes() {
 
     containerFilmeFilter.addEventListener("click", () => {
       chamaSecaoFilme(filme);
-        
     });
   });
 
@@ -109,6 +114,7 @@ function pesquisaFilmes() {
 function chamaSecaoFilme(filme) {
   let areaDoFilme = document.createElement("div");
   let button_fechaArea = document.createElement("button");
+  let container_areFilme = document.createElement("section");
   let inform_filme = document.createElement("div");
   let cardAreaFilme = document.createElement("div");
   let nomeFilme_area = document.createElement("h2");
@@ -125,12 +131,13 @@ function chamaSecaoFilme(filme) {
   header.style.backgroundImage = "url(../img/fundo-hearder.png)";
   button_trailer.innerHTML = "Trailer";
   trailer();
-
-  inform_filme.classList.add("inform_filme");
-  capaFilme_area.classList.add("capaFilme_area");
-  nomeFilme_area.classList.add("nomeFilme_area");
-  cardAreaFilme.classList.add("inform_filme");
   areaDoFilme.classList.add("areaDoFilme");
+  container_areFilme.classList.add("container_areFilme");
+  capaFilme_area.classList.add("capaFilme_area");
+  inform_filme.classList.add("inform_filme");
+  nomeFilme_area.classList.add("nomeFilme_area");
+  cardAreaFilme.classList.add("cardAreaFilme");
+
   button_fechaArea.classList.add("button_fechaArea");
   buttonArea_assistir.classList.add("buttonArea_assistir");
 
@@ -148,8 +155,6 @@ function chamaSecaoFilme(filme) {
   duracao.innerHTML = `<strong>Duração:</strong> ${filme.duracao}`;
   avaliacao.innerHTML = `<strong>Avaliação: </strong><i class="fa fa-star" aria-hidden="true"></i>  ${filme.estrela}<span>/10</span>`;
 
-  cardAreaFilme.appendChild(button_fechaArea);
-
   cardAreaFilme.appendChild(capaFilme_area);
   cardAreaFilme.appendChild(buttonArea_assistir);
 
@@ -161,8 +166,11 @@ function chamaSecaoFilme(filme) {
   inform_filme.appendChild(duracao);
   inform_filme.appendChild(avaliacao);
 
-  areaDoFilme.appendChild(cardAreaFilme);
-  areaDoFilme.appendChild(inform_filme);
+  container_areFilme.appendChild(cardAreaFilme);
+  container_areFilme.appendChild(inform_filme);
+  areaDoFilme.appendChild(button_fechaArea);
+  areaDoFilme.appendChild(container_areFilme);
+
   window.document.body.appendChild(areaDoFilme);
   setTimeout(() => {
     areaDoFilme.style.transform = "translateY(0%)";

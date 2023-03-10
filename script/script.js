@@ -25,7 +25,7 @@ function assistir_header() {
   filme_header.setAttribute("type", "video");
   filme_header.setAttribute("controls", "controls");
   filme_header.poster = "img/img-acao/fundo1.png";
-  filme_header.src = "videos/filme-acao/ultimo-homem.mp4";
+  filme_header.src = "";
 
   function assistir_filme() {
     header.style.backgroundImage = "url(../img/fundo-hearder.png)";
@@ -82,7 +82,7 @@ trailer();
 
 
 function passarFilme() {
-  for (let index = 0; index < button_direita.length; index++) {
+  for (let index = 0; index < container_filmes.length; index++) {
     button_direita[index].addEventListener("click", () => {
       container_filmes[index].scrollBy(300, 0);
     });

@@ -9,7 +9,7 @@
         "categoria":"ação",
         "idioma":"Português",
         "duracao":"2h 19 Minutos",
-        "filme": "../videos/filme-acao/ultimo-homem.mp4",
+        "filme": "",
         "estrela":"8.1"
 
     },
@@ -24,7 +24,7 @@
         "categoria":"ação",
         "idioma":"Português",
         "duracao":"1h 30 Minutos",
-        "filme": "../videos/filme-acao/Armadilha Explosiva.mkv",
+        "filme": "",
         "estrela":"7"
     },
 
@@ -38,7 +38,7 @@
         "categoria":"ação",
          "idioma":"Português",
          "duracao":"2h 27 Minutos",
-        "filme": "../videos/filme-acao/TRZVDSORSGTE.mp4",
+        "filme": "",
         "estrela":"7.8"
     },
 
@@ -52,7 +52,7 @@
         "categoria":"ação",
         "idioma":"Português",
         "duracao":"1h 39 Minutos",
-        "filme": "../videos/filme-acao/SMRTNO.mp4",
+        "filme": "",
         "estrela":"8"
     },
 
@@ -66,7 +66,7 @@
         "categoria":"ação",
         "idioma":"Português / Inglês",
         "duracao":"1h 30 Minutos",
-        "filme": "../videos/filme-acao/CANCDOAVBRNV.mp4",
+        "filme": "",
         "estrela":"9.1"
     },
 
@@ -80,7 +80,7 @@
         "categoria":"ação",
         "idioma":"Português / Inglês",
         "duracao":"1h 43 Minutos",
-        "filme": "../videos/filme-acao/CNTRTOPRGSO.mp4",
+        "filme": "",
         "estrela":"8.3"
     },
 
@@ -94,7 +94,7 @@
         "categoria":"comedia",
         "idioma":"Português",
         "duracao":"1h 39 Minutos",
-        "filme": "../videos/filme-comedia/KNGMEUMLHRAMG.mp4",
+        "filme": "",
         "estrela":"6.6"
     
     },
@@ -109,7 +109,7 @@
         "categoria":"comedia",
         "idioma":"Português / Inglês",
         "duracao":"1h 41 Minutos",
-        "filme": "../videos/filme-comedia/DFRSDFMLIA.mp4",
+        "filme": "",
         "estrela":"7.2"
     
     },
@@ -124,7 +124,7 @@
         "categoria":"comedia",
         "idioma":"Português / Inglês",
         "duracao":"1 h 36 Minutos",
-        "filme": "../videos/filme-comedia/JRYEMRGTRMASRTGRND.mp4",
+        "filme": "",
         "estrela":"7.4"
     
     },
@@ -140,7 +140,7 @@
         "categoria":"comedia",
         "idioma":"Português / Inglês",
         "duracao":"1h 57 Minutos",
-        "filme": "../videos/filme-comedia/ARMSNDOALT.mp4",
+        "filme": "",
         "estrela":"8"
     
     },
@@ -156,7 +156,7 @@
         "categoria":"comedia",
         "idioma":"Português / Inglês",
         "duracao":"1h 52 Minutos",
-        "filme": "../videos/filme-comedia/CIDADPRDA.mp4",
+        "filme": "",
         "estrela":"7"
     
     },
@@ -171,10 +171,104 @@
         "categoria":"comedia",
         "idioma":"Português / Inglês",
         "duracao":"1h 57 Minutos",
-        "filme": "../videos/filme-comedia/AMRCMFTCH.mp4",
+        "filme": "",
         "estrela":"8"
     
+    },
+
+    {
+        "capa":"img/img-animacao/1.png",
+        "fundo":"img/img-animacao/fundo1.png",
+        "title":"A Era do Gelo: As Aventuras de Buck",
+        "sinospe": "As peripécias hilárias dos mamíferos pré-históricos favoritos de todo mundo continuam, enquanto os gambás caçadores de emoções Crash e Eddie se juntam ao seu amigo caolho, aventureiro e caçador de dinossauros, a doninha Buck Wild, para enfrentar os dinossauros rebeldes do Mundo Perdido.",
+        "ano":"2022",
+        "generos":"Animação / Comédia",
+        "categoria":"animacao",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 22 Minutos",
+        "filme": "",
+        "estrela":"10"
+    
+    },
+
+
+    {
+        "capa":"img/img-animacao/2.png",
+        "fundo":"img/img-animacao/fundo2.png",
+        "title":"A Sabiá Sabiazinha, Robin, Robin",
+        "sinospe": "Depois de seu ovo rolar rumo a um depósito de lixo, a passarinha Robin é criada por uma família de camundongos. Com o passar do tempo, fica cada vez mais evidente que ela é diferente dos outros. Incomodada, Robin parte em uma missão para provar à família que pode ser uma ótima roedora, mas acaba descobrindo quem é de verdade.",
+        "ano":"2021",
+        "generos":"Animação / Aventura / Curta",
+        "categoria":"animacao",
+        "idioma":"Português / Inglês",
+        "duracao":"30 Minutos",
+        "filme": "",
+        "estrela":"7.9"
+    
+    },
+
+    {
+        "capa":"img/img-animacao/3.png",
+        "fundo":"img/img-animacao/fundo3.png",
+        "title":"Gato de Botas 2 - O Último Pedido",
+        "sinospe": "Versão em 4K Ultra HD do filme Gato de Botas 2 - O Último Pedido no original Puss in Boots: The Last Wish. O Gatos de Botas descobre que sua paixão por aventura teve um preço: ele já gastou oito das suas nove vidas. Por causa disso, o Gato embarca em uma jornada épica para envolver o místico Último Desejo para restaurar suas nove vidas.",
+        "ano":"2022",
+        "generos":"Animação / Aventura / Comédia",
+        "categoria":"animacao",
+        "idioma":"Português / Inglês",
+        "duracao":"102 Minutos",
+        "filme": "",
+        "estrela":"7.9"
+    
+    },
+
+    
+    {
+        "capa":"img/img-animacao/4.png",
+        "fundo":"img/img-animacao/fundo4.png",
+        "title":"Red - Crescer é uma Fera",
+        "sinospe": "Conheça Mei: uma jovem que experiencia a estranheza de ser uma adolescente ao se transformar em um panda vermelho gigante toda vez que fica muito animada.",
+        "ano":"2022",
+        "generos":"Animação / Aventura / Comédia",
+        "categoria":"animacao",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 40 Minutos",
+        "filme": "",
+        "estrela":"7"
+    
+    },
+
+    {
+        "capa":"img/img-animacao/5.png",
+        "fundo":"img/img-animacao/fundo5.png",
+        "title":" A Fera do Ma",
+        "sinospe": " Uma menina entra escondida no navio de um grande caçador de monstros marinhos. Juntos, eles iniciam uma jornada épica por águas desconhecidas.",
+        "ano":"2022",
+        "generos":"Animação / Aventura / Comédia",
+        "categoria":"animacao",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 55 Minutos",
+        "filme": "",
+        "estrela":"6.4"
+    
+    },
+
+    {
+        "capa":"img/img-animacao/6.png",
+        "fundo":"img/img-animacao/fundo6.png",
+        "title":"Mundo Estranho ",
+        "sinospe": "A família Clade não é muito igual as outras. Eles são exploradores que desbravam novas terras e estão em uma missão para explorar um mundo estranho e não conhecido. Porém, as diferenças entre os membros da família podem por sua nova missão em risco.",
+        "ano":"2022",
+        "generos":"Ação / Animação / Aventura",
+        "categoria":"animacao",
+        "idioma":"Português / Inglês",
+        "duracao":"102 Minutos",
+        "filme": "",
+        "estrela":"5.5"
+    
     }
+
+
 
 
 ]

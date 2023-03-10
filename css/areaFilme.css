@@ -3,9 +3,6 @@
   position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   z-index: 1;
@@ -16,30 +13,38 @@
   overflow: auto;
 }
 
-.inform_filme {
-  text-align: center;
-  margin-top: 50px;
-  padding-top: 30px;
-  width: 70%;
-  height: 80%;
-}
-
-.inform_filme p {
-  text-align: left;
-  margin: 30px 0px;
+.button_fechaArea {
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
   color: white;
-  font-family: "Lexend", sans-serif;
-  text-align: justify;
-  width: 80%;
-  letter-spacing: 1px;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: all 0.5s;
+  margin: 30px;
 }
 
-.inform_filme strong {
+.button_fechaArea:hover {
   color: gold;
+  border-color: gold;
+  transform: scale(1.1);
 }
 
-.inform_filme span {
-  color: gray;
+.button_fechaArea i {
+  transform: scale(1.5);
+}
+
+.container_areFilme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardAreaFilme {
+  text-align: center;
+  width: 50%;
+  height: 100%;
 }
 
 .capaFilme_area {
@@ -55,7 +60,7 @@
   margin: auto;
   font-family: "Lexend", sans-serif;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 10px;
   width: 270px;
   height: 35px;
   border: none;
@@ -73,6 +78,41 @@
   animation: anima 2s linear infinite;
 }
 
+.inform_filme {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  width: 50%;
+  height: 100%;
+}
+
+.nomeFilme_area {
+  text-align: left;
+  width: 80%;
+  font-family: "Righteous", cursive;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color: white;
+}
+
+.inform_filme p {
+  text-align: left;
+  color: white;
+  font-family: "Lexend", sans-serif;
+  text-align: justify;
+  width: 80%;
+  letter-spacing: 1px;
+}
+
+.inform_filme strong {
+  color: gold;
+}
+
+.inform_filme span {
+  color: gray;
+}
+
 @keyframes anima {
   0% {
     transform: translateX(20px);
@@ -81,41 +121,6 @@
   100% {
     transform: translateX(0px);
   }
-}
-
-.nomeFilme_area {
-  font-family: "Righteous", cursive;
-  letter-spacing: 3px;
-  font-size: 40px;
-  color: white;
-}
-
-.buttonArea_assistir:hover {
-  background-position: 270px;
-}
-
-.button_fechaArea {
-  border: none;
-  width: 40px;
-  height: 40px;
-  float: left;
-  margin-top: -35px;
-  margin-left: 20px;
-  background-color: transparent;
-  color: white;
-  cursor: pointer;
-  border: 1px solid white;
-  transition: all 0.5s;
-}
-
-.button_fechaArea:hover {
-  color: gold;
-  border-color: gold;
-  transform: scale(1.1);
-}
-
-.button_fechaArea i {
-  transform: scale(1.5);
 }
 
 .main_tela {
