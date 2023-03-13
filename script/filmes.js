@@ -1,3 +1,6 @@
+let containerMaisAssistidos = document.querySelector(
+  ".container_maisAssistidos"
+);
 let container_acao = document.querySelector(".container_acao");
 let container_comedia = document.querySelector(".container_comedia");
 let container_animacao = document.querySelector(".container_animacao");
@@ -12,12 +15,14 @@ inputPesquisa.addEventListener("input", pesquisaFilmes);
 
 let todosOsFilmes = [];
 let filterFilmes = [];
+let maisAssistidos = [];
 
 async function iniciarFilmes() {
   try {
     todosOsFilmes = await respFilmes();
 
     geraFilme();
+    filmesMaisAssistidos();
   } catch (erro) {
     showErro(erro);
   }
@@ -51,6 +56,7 @@ function geraFilme() {
     card.appendChild(div_img);
     card.appendChild(nome_filme);
     card.appendChild(sectionEstrela);
+
     if (filme.categoria == "ação") {
       container_acao.appendChild(card);
     }
@@ -109,6 +115,55 @@ function pesquisaFilmes() {
       pesquisaFilmes();
     }
   }
+}
+
+function filmesMaisAssistidos() {
+  maisAssistidos = todosOsFilmes.filter((i) => i.popularidade == "favorito");
+
+  maisAssistidos.map(assistidos => {
+    let cardAssistidos = document.createElement("section");
+    let imgAssistidos = document.createElement("div");
+    let buttonAssistidos = document.createElement("button");
+    let descAssistidos = document.createElement("div");
+    let titleAssistidos = document.createElement("h2");
+    let avaliarAssistidos = document.createElement("p");
+    let sinospeAssistidos = document.createElement("p");
+
+    cardAssistidos.classList.add("cardAssistidos");
+    imgAssistidos.classList.add("imgAssistidos");
+    buttonAssistidos.classList.add("buttonAssistidos");
+    descAssistidos.classList.add("descAssistidos");
+    titleAssistidos.classList.add("titleAssistidos");
+    avaliarAssistidos.classList.add("avaliarAssistidos");
+    sinospeAssistidos.classList.add("sinospeAssistidos");
+
+    imgAssistidos.style.backgroundImage = `url(${assistidos.capa})`;
+    buttonAssistidos.textContent="Assistir"
+    titleAssistidos.textContent = assistidos.title;
+    avaliarAssistidos.innerHTML = `
+       <i class="fa fa-star" aria-hidden="true"></i>
+       <i class="fa fa-star" aria-hidden="true"></i>
+       <i class="fa fa-star" aria-hidden="true"></i>
+       <i class="fa fa-star" aria-hidden="true"></i>
+       <i class="fa fa-star-half" aria-hidden="true"></i> ${assistidos.estrela}<span>/10</span>`;
+    sinospeAssistidos.textContent=assistidos.sinospe
+    imgAssistidos.appendChild(buttonAssistidos)
+    descAssistidos.appendChild(titleAssistidos)
+    descAssistidos.appendChild(avaliarAssistidos)
+    descAssistidos.appendChild(sinospeAssistidos)
+
+    cardAssistidos.appendChild(imgAssistidos)
+    cardAssistidos.appendChild(descAssistidos)
+
+    containerMaisAssistidos.appendChild(cardAssistidos)
+      
+
+    buttonAssistidos.addEventListener("click",()=>{
+      chamaSecaoFilme(assistidos);
+    })
+  });
+
+
 }
 
 function chamaSecaoFilme(filme) {

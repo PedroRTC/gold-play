@@ -3,14 +3,15 @@
         "capa":"img/img-acao/1.png",
         "fundo":"img/img-acao/fundo1.png",
         "title":"Até o Último Homem",
-        "sinospe": "Durante a Segunda Guerra Mundial, o médico do exército Desmond T. Doss se recusa a pegar em uma arma e matar pessoas, porém, durante a Batalha de Okinawa ele trabalha na ala médica e salva mais de 75 homens, sendo condecorado. O que faz de Doss o primeiro Opositor Consciente da história norte-americana a receber a Medalha de Honra do Congresso.",
+        "sinospe": " O médico do exército Desmond T. Doss se recusa a pegar em uma arma e matar pessoas, porém, durante a Batalha de Okinawa ele trabalha na ala médica e salva mais de 75 homens, sendo condecorado.",
         "ano":"2016",
         "generos":"Biografia / Drama / Histórico / Guerra",
         "categoria":"ação",
         "idioma":"Português",
         "duracao":"2h 19 Minutos",
         "filme": "",
-        "estrela":"8.1"
+        "estrela":"8.1",
+        "popularidade": "favorito"
 
     },
 
@@ -25,7 +26,8 @@
         "idioma":"Português",
         "duracao":"1h 30 Minutos",
         "filme": "",
-        "estrela":"7"
+        "estrela":"7",
+        "popularidade": "nao favorito"
     },
 
     {
@@ -39,7 +41,8 @@
          "idioma":"Português",
          "duracao":"2h 27 Minutos",
         "filme": "",
-        "estrela":"7.8"
+        "estrela":"7.8",
+        "popularidade": "nao favorito"
     },
 
     {
@@ -53,7 +56,8 @@
         "idioma":"Português",
         "duracao":"1h 39 Minutos",
         "filme": "",
-        "estrela":"8"
+        "estrela":"8",
+        "popularidade": "favorito"
     },
 
     {
@@ -67,21 +71,23 @@
         "idioma":"Português / Inglês",
         "duracao":"1h 30 Minutos",
         "filme": "",
-        "estrela":"9.1"
+        "estrela":"9.1",
+        "popularidade": "favorito"
     },
 
     {
         "capa":"img/img-acao/6.png",
         "fundo":"img/img-acao/fundo6.png",
         "title":"Contrato Perigoso",
-        "sinospe": " Depois de ser dispensado involuntariamente dos fuzileiros navais, James Harper se junta a uma organização paramilitar para sustentar sua família da única maneira que ele sabe. Reed viaja para a Polônia com sua equipe de elite em uma missão de operações para investigar uma misteriosa ameaça. Em sua primeira missão, Reed se encontra sozinho e caçado na Europa Oriental, onde ele deve lutar para permanecer vivo por tempo suficiente para chegar em casa e descobrir os verdadeiros motivos daqueles que o traíram.",
+        "sinospe": " Depois de ser dispensado involuntariamente dos fuzileiros navais, James Harper se junta a uma organização paramilitar para sustentar sua família da única maneira que ele sabe.",
         "ano":"2022",
         "generos":"Ação / Suspense",
         "categoria":"ação",
         "idioma":"Português / Inglês",
         "duracao":"1h 43 Minutos",
         "filme": "",
-        "estrela":"8.3"
+        "estrela":"8.3",
+        "popularidade": "favorito"
     },
 
     {
@@ -95,7 +101,8 @@
         "idioma":"Português",
         "duracao":"1h 39 Minutos",
         "filme": "",
-        "estrela":"6.6"
+        "estrela":"6.6",
+        "popularidade": "nao favorito"
     
     },
     
@@ -110,7 +117,8 @@
         "idioma":"Português / Inglês",
         "duracao":"1h 41 Minutos",
         "filme": "",
-        "estrela":"7.2"
+        "estrela":"7.2",
+        "popularidade": "nao favorito"
     
     },
     
@@ -125,7 +133,8 @@
         "idioma":"Português / Inglês",
         "duracao":"1 h 36 Minutos",
         "filme": "",
-        "estrela":"7.4"
+        "estrela":"7.4",
+        "popularidade": "nao favorito"
     
     },
     
@@ -141,7 +150,8 @@
         "idioma":"Português / Inglês",
         "duracao":"1h 57 Minutos",
         "filme": "",
-        "estrela":"8"
+        "estrela":"8",
+        "popularidade": "favorito"
     
     },
     
@@ -157,7 +167,8 @@
         "idioma":"Português / Inglês",
         "duracao":"1h 52 Minutos",
         "filme": "",
-        "estrela":"7"
+        "estrela":"7",
+        "popularidade": "nao favorito"
     
     },
     
@@ -165,14 +176,15 @@
         "capa":"img/img-comedia/6.png",
         "fundo":"img/img-comedia/fundo6.png",
         "title":"Amor Com Fetiche",
-        "sinospe": "Um trabalhador de escritório aparentemente limpo mantém suas fantasias sexuais BDSM para si mesmo, até que ele descobre que sua colega de trabalho é uma dominatrix em potencial…. À medida que passam o tempo juntos e se entendendo os dois acabam tendo uma relação de mestre e servo bastante única. O webtoon retrata o amor entre homens e mulheres com gostos únicos, foi serializado na plataforma webtoon 'Comico' e se tornou muito popular entre as leitoras na faixa dos 20 ou 30 anos.",
+        "sinospe": "Um trabalhador de escritório aparentemente limpo mantém suas fantasias sexuais BDSM para si mesmo, até que ele descobre que sua colega de trabalho é uma dominatrix em potencial….",
         "ano":"2022",
         "generos":"Comédia / Romance",
         "categoria":"comedia",
         "idioma":"Português / Inglês",
         "duracao":"1h 57 Minutos",
         "filme": "",
-        "estrela":"8"
+        "estrela":"8",
+        "popularidade": "favorito"
     
     },
 
@@ -180,14 +192,15 @@
         "capa":"img/img-animacao/1.png",
         "fundo":"img/img-animacao/fundo1.png",
         "title":"A Era do Gelo: As Aventuras de Buck",
-        "sinospe": "As peripécias hilárias dos mamíferos pré-históricos favoritos de todo mundo continuam, enquanto os gambás caçadores de emoções Crash e Eddie se juntam ao seu amigo caolho, aventureiro e caçador de dinossauros, a doninha Buck Wild, para enfrentar os dinossauros rebeldes do Mundo Perdido.",
+        "sinospe": "As peripécias hilárias dos mamíferos pré-históricos favoritos de todo mundo continuam, enquanto os gambás caçadores de emoções Crash e Eddie se juntam ao seu amigo caolho, aventureiro e caçador de dinossauros.",
         "ano":"2022",
         "generos":"Animação / Comédia",
         "categoria":"animacao",
         "idioma":"Português / Inglês",
         "duracao":"1h 22 Minutos",
         "filme": "",
-        "estrela":"10"
+        "estrela":"10",
+        "popularidade": "favorito"
     
     },
 
@@ -203,7 +216,8 @@
         "idioma":"Português / Inglês",
         "duracao":"30 Minutos",
         "filme": "",
-        "estrela":"7.9"
+        "estrela":"7.9",
+        "popularidade": "nao favorito"
     
     },
 
@@ -218,7 +232,8 @@
         "idioma":"Português / Inglês",
         "duracao":"102 Minutos",
         "filme": "",
-        "estrela":"7.9"
+        "estrela":"7.9",
+        "popularidade": "nao favorito"
     
     },
 
@@ -234,7 +249,8 @@
         "idioma":"Português / Inglês",
         "duracao":"1h 40 Minutos",
         "filme": "",
-        "estrela":"7"
+        "estrela":"7",
+        "popularidade": "nao favorito"
     
     },
 
@@ -249,7 +265,8 @@
         "idioma":"Português / Inglês",
         "duracao":"1h 55 Minutos",
         "filme": "",
-        "estrela":"6.4"
+        "estrela":"6.4",
+        "popularidade": "nao favorito"
     
     },
 
@@ -264,7 +281,8 @@
         "idioma":"Português / Inglês",
         "duracao":"102 Minutos",
         "filme": "",
-        "estrela":"5.5"
+        "estrela":"5.5",
+        "popularidade": "nao favorito"
     
     }
 

@@ -1,0 +1,113 @@
+.mais_assistidos{
+    width:90%;
+    margin: auto;
+    
+}
+
+.titleMaisAssistidos{
+    color: gainsboro;
+    font-size: 12pt;
+    font-family: "Comfortaa", cursive;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.553);
+}
+
+.container_buttons_assistidos{
+  display: flex;
+  justify-content: flex-end;
+  width:100%;
+  gap:10px;
+
+  padding: 10px 0px;
+  
+}
+
+.container_buttons_assistidos button{
+  width:30px;
+  height:30px;
+  border:none ;
+  background-color: #11110a;
+  color: gold;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.container_maisAssistidos{
+    display: flex;
+    margin: auto;
+    text-align: left;
+    align-items: center;
+    overflow:hidden;
+    gap: 20px;
+    padding: 50px 0px;
+    scroll-snap-type:x mandatory;
+}
+
+
+
+.cardAssistidos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:#11110a;
+    width: 450px;
+    height:300px;
+    flex: none;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 20px 0px 30px rgba(0, 0, 0, 0.487);
+    border-bottom:1px solid gold;
+    scroll-snap-align:start ;
+}
+.imgAssistidos{
+  width:230px;
+  height:350px ;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  transform: translateY(-30px);
+  box-shadow:0px 10px 20px rgb(0, 0, 0) ;
+}
+.buttonAssistidos{
+  margin-bottom: 20px;
+  width:130px;
+  height:25px ;
+  border:none ;
+  border-radius:20px;
+  cursor: pointer;
+  background-image: linear-gradient(45deg,gold,rgb(255, 106, 0));
+}
+.descAssistidos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  width:50%;
+  height:100%;
+  color: white;
+  font-family: "Lexend", sans-serif;
+  letter-spacing: 1px;
+}
+.titleAssistidos{
+    font-size: 12pt;
+}
+.avaliarAssistidos{
+  font-size: 8pt;
+  border-bottom: 1px solid gray;
+  padding: 5px 0px;
+}
+
+.avaliarAssistidos i{
+    color: gold;
+}
+
+.avaliarAssistidos span{
+  color: gray;
+}
+.sinospeAssistidos{
+    font-size: 8pt;
+    line-height: 15px;
+    overflow: hidden;
+}
