@@ -137,7 +137,7 @@ function filmesMaisAssistidos() {
     avaliarAssistidos.classList.add("avaliarAssistidos");
     sinospeAssistidos.classList.add("sinospeAssistidos");
 
-    imgAssistidos.style.backgroundImage = `url(${assistidos.capa})`;
+    imgAssistidos.style.backgroundImage = `url(${assistidos.capaAtds})`;
     buttonAssistidos.textContent="Assistir"
     titleAssistidos.textContent = assistidos.title;
     avaliarAssistidos.innerHTML = `

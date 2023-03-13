@@ -1,6 +1,7 @@
 [
     {
         "capa":"img/img-acao/1.png",
+        "capaAtds":"img/img-acao/1-favorito.png",
         "fundo":"img/img-acao/fundo1.png",
         "title":"Até o Último Homem",
         "sinospe": " O médico do exército Desmond T. Doss se recusa a pegar em uma arma e matar pessoas, porém, durante a Batalha de Okinawa ele trabalha na ala médica e salva mais de 75 homens, sendo condecorado.",
@@ -12,6 +13,7 @@
         "filme": "",
         "estrela":"8.1",
         "popularidade": "favorito"
+
 
     },
 
@@ -47,6 +49,7 @@
 
     {
         "capa":"img/img-acao/4.png",
+        "capaAtds":"img/img-acao/4-favorito.png",
         "fundo":"img/img-acao/fundo4.png",
         "title":"Samaritano",
         "sinospe": "Baseado em uma ideia original, o thriller se concentra em um garoto que está prestes a descobrir se um super-herói mítico, que desapareceu 20 anos antes de um evento trágico, ainda está vivo.",
@@ -62,6 +65,7 @@
 
     {
         "capa":"img/img-acao/5.png",
+        "capaAtds":"img/img-acao/5-favorito.png",
         "fundo":"img/img-acao/fundo5.png",
         "title":"Caçando Ava Bravo",
         "sinospe": " Buddy King, um bilionário excêntrico, passo seu tempo caçando pessoas escondido nas montanhas nevadas. Mas sua última vítima, Ava Bravo, não será um alvo fácil",
@@ -77,6 +81,7 @@
 
     {
         "capa":"img/img-acao/6.png",
+        "capaAtds":"img/img-acao/6-favorito.png",
         "fundo":"img/img-acao/fundo6.png",
         "title":"Contrato Perigoso",
         "sinospe": " Depois de ser dispensado involuntariamente dos fuzileiros navais, James Harper se junta a uma organização paramilitar para sustentar sua família da única maneira que ele sabe.",
@@ -141,6 +146,7 @@
     
     {
         "capa":"img/img-comedia/4.png",
+        "capaAtds":"img/img-comedia/4-favorito.png",
         "fundo":"img/img-comedia/fundo4.png",
         "title":"Arremessando Alto - Hustle",
         "sinospe": "Depois de ser demitido, o olheiro profissional do basquete, Stanley Beren, fica empolgado, pela primeira vez em muito tempo, quando descobre por acaso o jogador amador espanhol, Bo Cruz, jogando em um parque nos arredores de Madri.",
@@ -174,6 +180,7 @@
     
     {
         "capa":"img/img-comedia/6.png",
+        "capaAtds":"img/img-comedia/6-favorito.png",
         "fundo":"img/img-comedia/fundo6.png",
         "title":"Amor Com Fetiche",
         "sinospe": "Um trabalhador de escritório aparentemente limpo mantém suas fantasias sexuais BDSM para si mesmo, até que ele descobre que sua colega de trabalho é uma dominatrix em potencial….",
@@ -190,6 +197,7 @@
 
     {
         "capa":"img/img-animacao/1.png",
+        "capaAtds":"img/img-animacao/1-favorito.png",
         "fundo":"img/img-animacao/fundo1.png",
         "title":"A Era do Gelo: As Aventuras de Buck",
         "sinospe": "As peripécias hilárias dos mamíferos pré-históricos favoritos de todo mundo continuam, enquanto os gambás caçadores de emoções Crash e Eddie se juntam ao seu amigo caolho, aventureiro e caçador de dinossauros.",

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/cardFilme.css" />
     <link rel="stylesheet" href="css/areaFilme.css" />
-    <link rel="stylesheet" href="css/maisAssistidos.css">
+    <link rel="stylesheet" href="css/maisAssistidos.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -75,19 +75,22 @@
           <source src="videos/video-header.mp4" />
         </video>
       </header>
-      
-    <section class="mais_assistidos">
-      <h2 class="titleMaisAssistidos">Mais assistidos</h2>
-      <section class="container_buttons_assistidos">
-        <button class="button_esquerda"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-        <button class="button_direita"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+
+      <section class="mais_assistidos">
+        <h2 class="titleMaisAssistidos">Mais assistidos</h2>
+        <section class="container_buttons_assistidos">
+          <button class="button_esquerda">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </button>
+          <button class="button_direita">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </button>
+        </section>
+
+        <section></section>
+        <div class="container_maisAssistidos container_filmes"></div>
       </section>
-     
-      <section></section>
-          <div class="container_maisAssistidos container_filmes">
-              
-          </div>
-    </section>
+
       <a id="ACAO"></a>
       <div class="main_filmes main_acao">
         <h2 class="title">Fimes de ação</h2>
@@ -133,6 +136,7 @@
         </div>
       </div>
     </main>
+    
     <script src="script/http.js"></script>
     <script src="script/script.js"></script>
     <script src="script/filmes.js"></script>
