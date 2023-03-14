@@ -85,6 +85,7 @@ function passarFilme() {
   for (let index = 0; index < container_filmes.length; index++) {
     button_direita[index].addEventListener("click", () => {
       container_filmes[index].scrollBy(300, 0);
+      
     });
 
     button_esquerda[index].addEventListener("click", () => {

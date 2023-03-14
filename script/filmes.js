@@ -4,6 +4,7 @@ let containerMaisAssistidos = document.querySelector(
 let container_acao = document.querySelector(".container_acao");
 let container_comedia = document.querySelector(".container_comedia");
 let container_animacao = document.querySelector(".container_animacao");
+let container_romance = document.querySelector(".container_romance");
 
 let div_erro = document.querySelectorAll(".div_erro");
 
@@ -67,6 +68,11 @@ function geraFilme() {
 
     if (filme.categoria == "animacao") {
       container_animacao.appendChild(card);
+    }
+
+    
+    if (filme.categoria == "romance") {
+      container_romance.appendChild(card);
     }
 
     container_button.addEventListener("click", () => {

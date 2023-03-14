@@ -287,13 +287,117 @@
         "generos":"Ação / Animação / Aventura",
         "categoria":"animacao",
         "idioma":"Português / Inglês",
-        "duracao":"102 Minutos",
+        "duracao":"1h 42 Minutos",
         "filme": "",
         "estrela":"5.5",
         "popularidade": "nao favorito"
     
+    },
+
+    
+    {
+        "capa":"img/img-romance/1.png",
+        "fundo":"img/img-romance/fundo1.png",
+        "title":"Casamento Armado",
+        "sinospe": "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) reúnem suas amáveis, porém complicadas, famílias para o seu casamento, sem que ninguém saiba que eles estão repensando a decisão.",
+        "ano":"2023",
+        "generos":"Ação / Comédia / Romance",
+        "categoria":"romance",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 40 Minutos",
+        "filme": "",
+        "estrela":"5,9",
+        "popularidade": "nao favorito"
+    
+    },
+
+    {
+        "capa":"img/img-romance/2.png",
+        "fundo":"img/img-romance/fundo2.png",
+        "title":"About Fate",
+        "sinospe": "Duas pessoas que acreditam fielmente no amor, mas nunca conseguem encontrar seu verdadeiro significado, são empurradas uma na direção da outra no meio de uma reviravolta de eventos em plena véspera de ano novo.",
+        "ano":"2022",
+        "generos":"Comédia / Romance",
+        "categoria":"romance",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 40 Minutos",
+        "filme": "",
+        "estrela":"6",
+        "popularidade": "nao favorito"
+    
+    },
+
+    {
+        "capa":"img/img-romance/3.png",
+        "fundo":"img/img-romance/fundo3.png",
+        "title":"Ainda Estou Aqui",
+        "sinospe": "Depois de sobreviver a um acidente de carro que tirou a vida de seu namorado, uma adolescente acredita que ele está tentando se reconectar com ela do outro mundo.",
+        "ano":"2022",
+        "generos":"Drama / Ficção / Romance",
+        "categoria":"romance",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 55 Minutos",
+        "filme": "",
+        "estrela":"5.9",
+        "popularidade": "nao favorito"
+    
+    },
+
+    {
+        "capa":"img/img-romance/4.png",
+        "fundo":"img/img-romance/fundo4.png",
+        "title":"Combinação Perfeita",
+        "sinospe": "egue-se uma executiva de uma empresa de vinhos de Los Angeles que viaja para uma estação de ovelhas australiana para conseguir um grande cliente e lá ela acaba trabalhando como ajudante de rancho e se divertindo com um local rude.",
+        "ano":"2022",
+        "generos":"Comédia / Romance",
+        "categoria":"romance",
+        "idioma":"Português / Inglês",
+        "duracao":"1h 41 Minutos",
+        "filme": "",
+        "estrela":"6.4",
+        "popularidade": "nao favorito"
+    
+    },
+
+    {
+        "capa":"img/img-romance/5.png",
+        "fundo":"img/img-romance/fundo5.png",
+        "title":"Depois do Universo",
+        "sinospe": "No longa, a talentosa pianista Nina (Giulia Be) precisa superar os desafios de lidar com o lúpus, uma doença autoimune que pode atacar qualquer parte do corpo - o rim, no caso dela.",
+        "ano":"2022",
+        "generos":"Comédia / Drama / Nacional / Romance",
+        "categoria":"romance",
+        "idioma":"Português",
+        "duracao":"2h 6 Minutos",
+        "filme": "",
+        "estrela":"6.5",
+        "popularidade": "nao favorito"
+    
+    },
+
+    {
+        "capa":"img/img-romance/6.png",
+        "fundo":"img/img-romance/fundo6.png",
+        "title":"Esposa de Aluguel",
+        "sinospe": "Para cumprir o último desejo de sua mãe e evitar ser removido de seu testamento, um solteiro inflexível contrata uma atriz para interpretar sua noiva.",
+        "ano":"2022",
+        "generos":"Comédia / Nacional / Romance",
+        "categoria":"romance",
+        "idioma":"Português",
+        "duracao":"1h 47 Minutos",
+        "filme": "",
+        "estrela":"5",
+        "popularidade": "nao favorito"
+    
     }
 
+
+
+
+
+
+
+   
 
 
 

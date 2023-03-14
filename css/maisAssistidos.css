@@ -1,14 +1,24 @@
 .mais_assistidos {
-  width: 90%;
   margin: auto;
+  width: 81%;
 }
 
-.titleMaisAssistidos {
-  color: gainsboro;
-  font-size: 12pt;
+.header_mais_Assistidos{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+ border-bottom: 1px solid rgba(220, 220, 220, 0.111);
+}
+
+.titleMaisAssistidos{
   font-family: "Comfortaa", cursive;
-  letter-spacing: 1px;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.553);
+  color: rgba(220, 220, 220, 0.566);
+  width:200px ;
+  border-bottom: 1px solid gold;
+  font-size: 10pt;
+  padding: 5px 0px;
+  transform: translateY(1px);
+  letter-spacing: 1PX;
 }
 
 .container_buttons_assistidos {
@@ -35,7 +45,7 @@
   text-align: left;
   align-items: center;
   overflow: hidden;
-  gap: 20px;
+  gap: 15px;
   padding: 50px 0px;
   scroll-snap-type: x mandatory;
 }
