@@ -1,27 +1,27 @@
-.mais_assistidos {
+.more_assisted {
   margin: auto;
   width: 81%;
 }
 
-.header_mais_Assistidos{
+.header_more_assisted {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
- border-bottom: 1px solid rgba(220, 220, 220, 0.111);
+  border-bottom: 1px solid rgba(220, 220, 220, 0.111);
 }
 
-.titleMaisAssistidos{
+.title_more_assisted {
   font-family: "Comfortaa", cursive;
   color: rgba(220, 220, 220, 0.566);
-  width:200px ;
+  width: 200px;
   border-bottom: 1px solid gold;
   font-size: 10pt;
   padding: 5px 0px;
   transform: translateY(1px);
-  letter-spacing: 1PX;
+  letter-spacing: 1px;
 }
 
-.container_buttons_assistidos {
+.container_buttons_assisted {
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -29,7 +29,7 @@
   padding: 10px 0px;
 }
 
-.container_buttons_assistidos button {
+.container_buttons_assisted button {
   width: 30px;
   height: 30px;
   border: none;
@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-.container_maisAssistidos {
+.container_more_assisted {
   display: flex;
   margin: auto;
   text-align: left;
@@ -50,7 +50,7 @@
   scroll-snap-type: x mandatory;
 }
 
-.cardAssistidos {
+.card_assisted {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,13 +58,13 @@
   background-color: #11110a;
   width: 450px;
   height: 300px;
-  flex:none;
+  flex: none;
   padding: 20px;
   border-radius: 5px;
   border-bottom: 1px solid gold;
   scroll-snap-align: start;
 }
-.imgAssistidos {
+.img_assisted {
   width: 230px;
   height: 350px;
   display: flex;
@@ -75,7 +75,7 @@
   transform: translateY(-30px);
   box-shadow: 0px 10px 30px rgb(0, 0, 0);
 }
-.buttonAssistidos {
+.button_assisted {
   margin-bottom: 20px;
   width: 130px;
   height: 25px;
@@ -88,10 +88,10 @@
   transition: all 0.3s;
 }
 
-.buttonAssistidos:hover {
+.button_assisted:hover {
   transform: scale(1.2);
 }
-.descAssistidos {
+.desc_assisted {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -101,23 +101,23 @@
   font-family: "Lexend", sans-serif;
   letter-spacing: 1px;
 }
-.titleAssistidos {
+.title_assisted {
   font-size: 12pt;
 }
-.avaliarAssistidos {
+.assess_assisted {
   font-size: 8pt;
   border-bottom: 1px solid gray;
   padding: 5px 0px;
 }
 
-.avaliarAssistidos i {
+.assess_assisted i {
   color: gold;
 }
 
-.avaliarAssistidos span {
+.assess_assisted span {
   color: gray;
 }
-.sinospeAssistidos {
+.sinospe_assisted {
   font-size: 8pt;
   line-height: 15px;
   overflow: hidden;

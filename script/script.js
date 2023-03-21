@@ -1,12 +1,12 @@
 let header = document.querySelector("header");
 let button_trailer = document.querySelector(".button_trailer");
-let trailer_video = document.querySelector(".video-header");
+let trailer_video = document.querySelector(".video_header");
 let buttonPesquisa = document.querySelector(".fa-search");
 let button_Assistir_header = document.querySelector(".button_Assistir_header");
 
-let button_direita = document.querySelectorAll(".button_direita");
-let button_esquerda = document.querySelectorAll(".button_esquerda");
-let container_filmes = document.querySelectorAll(".container_filmes");
+let passRightButton = document.querySelectorAll(".pass_right_button");
+let passLeftButton = document.querySelectorAll(".pass_left_button");
+let containerFilms = document.querySelectorAll(".container_films");
 
 function assistir_header() {
   button_Assistir_header.addEventListener("click", assistir_filme);
@@ -82,14 +82,14 @@ trailer();
 
 
 function passarFilme() {
-  for (let index = 0; index < container_filmes.length; index++) {
-    button_direita[index].addEventListener("click", () => {
-      container_filmes[index].scrollBy(300, 0);
+  for (let index = 0; index < containerFilms .length; index++) {
+    passRightButton[index].addEventListener("click", () => {
+      containerFilms [index].scrollBy(300, 0);
       
     });
 
-    button_esquerda[index].addEventListener("click", () => {
-      container_filmes[index].scrollBy(-300, 0);
+    passLeftButton[index].addEventListener("click", () => {
+      containerFilms [index].scrollBy(-300, 0);
     });
   }
 }

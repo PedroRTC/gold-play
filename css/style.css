@@ -35,7 +35,7 @@ header {
   margin-bottom: 30px;
 }
 
-.container-header {
+.container_header {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -45,13 +45,13 @@ header {
   margin-bottom: 30px;
 }
 
-.desc-header {
+.desc_header {
   font-family: "Barlow Condensed", sans-serif;
   width: 100%;
   line-height: 35px;
 }
 
-.estrelas-header {
+.estrelas_header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,7 @@ header {
   color: gold;
 }
 
-.estrela-cinza {
+.estrela_cinza {
   color: gray;
 }
 
@@ -71,7 +71,7 @@ header {
   padding: 0px 20px;
 }
 
-.nome_logo {
+.name_logo {
   font-size: 14pt;
   color: gold;
   letter-spacing: 1px;
@@ -120,7 +120,7 @@ nav {
   transform: scale(1.1);
 }
 
-.container-pesquisaContato {
+.container_search_message {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -129,7 +129,7 @@ nav {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.container-pesquisa {
+.container_search{
   display: flex;
   justify-content: center;
   background-color: transparent;
@@ -140,7 +140,7 @@ nav {
   align-items: center;
 }
 
-#input-pesquisa {
+#input_search {
   padding: 5px;
   outline: none;
   border-radius: 10px;
@@ -160,7 +160,7 @@ nav {
   transform: scale(1.2);
 }
 
-.button_contato {
+.button_message {
   border: none;
   font-family: "Lexend", sans-serif;
   background-color: gold;
@@ -172,7 +172,7 @@ nav {
   margin: 0px 10px;
 }
 
-.containerFilter {
+.container_filter {
   position: fixed;
   text-align: center;
   top: 55px;
@@ -188,15 +188,15 @@ nav {
 
 }
 
-.containerFilter::-webkit-scrollbar {
+.container_filter::-webkit-scrollbar {
   width: 2px;
 }
 
-.containerFilter::-webkit-scrollbar-thumb {
+.container_filter::-webkit-scrollbar-thumb {
   background-color: gold;
 }
 
-.containerFilmeFilter {
+.container_films_filter {
   display: flex;
   padding: 10px;
   border-bottom: 1px dashed gold;
@@ -204,11 +204,11 @@ nav {
   z-index: 2;
 }
 
-.containerFilmeFilter:hover {
+.container_films_filter:hover {
   background-color: rgba(255, 217, 0, 0.092);
 }
 
-.descFilmeFilter {
+.desc_films_filter {
   margin: auto;
   text-align: left;
   color: white;
@@ -217,27 +217,27 @@ nav {
   line-height: 20px;
 }
 
-.descFilmeFilter i {
+.desc_films_filter i {
   color: gold;
 }
 
-.descFilmeFilter span {
+.desc_films_filter span {
   color: gray;
 }
 
-.imgFilter {
+.img_filter {
   width: 60px;
   height: 80px;
   display: inline-block;
 }
 
-.container-header h1 {
+.container_header h1 {
   font-size: 35pt;
   color: white;
   letter-spacing: 1px;
 }
 
-.container-header p {
+.container_header p {
   letter-spacing: 3px;
   color: white;
 }
@@ -279,7 +279,7 @@ nav {
   transform: scale(1.1);
 }
 
-.video-header {
+.video_header {
   position: absolute;
   top: 0;
   left: 0;

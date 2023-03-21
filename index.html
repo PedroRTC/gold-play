@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/cardFilme.css" />
-    <link rel="stylesheet" href="css/areaFilme.css" />
-    <link rel="stylesheet" href="css/maisAssistidos.css" />
+    <link rel="stylesheet" href="css/cardFilms.css" />
+    <link rel="stylesheet" href="css/areaFilms.css" />
+    <link rel="stylesheet" href="css/moreAssisted.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -26,7 +26,7 @@
       <header>
         <nav>
           <div class="container_logo">
-            <p class="nome_logo">Gold</p>
+            <p class="name_logo">Gold</p>
             <img class="logo" src="img/logo.png" alt="" />
           </div>
 
@@ -38,19 +38,19 @@
             <li><a class="item" href="#">ROMANCE</a></li>
           </ul>
 
-          <div class="container-pesquisaContato">
-            <section class="container-pesquisa">
-              <label for="input-pesquisa"
+          <div class="container_search_message">
+            <section class="container_search">
+              <label for="input_search"
                 ><i class="fa fa-search" aria-hidden="true"></i
               ></label>
-              <input type="text" id="input-pesquisa" />
+              <input type="text" id="input_search" />
             </section>
-            <button class="button_contato">Mensagem</button>
+            <button class="button_message">Mensagem</button>
           </div>
         </nav>
 
-        <section class="container-header">
-          <div class="desc-header">
+        <section class="container_header">
+          <div class="desc_header">
             <h1>ATÉ O ÚLTIMO HOMEM</h1>
             <p>Hacksaw Ridge</p>
 
@@ -60,7 +60,7 @@
             </section>
           </div>
 
-          <div class="estrelas-header">
+          <div class="estrelas_header">
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -71,93 +71,91 @@
           </div>
         </section>
 
-        <video loop type="video" class="video-header">
+        <video loop type="video" class="video_header">
           <source src="videos/video-header.mp4" />
         </video>
       </header>
 
-      <section class="mais_assistidos">
-        
-        <div class="header_mais_Assistidos">
-          <h2 class="titleMaisAssistidos">MAIS ASSISTIDOS</h2>
-          <section class="container_buttons_assistidos">
-            <button class="button_esquerda">
+      <section class="more_assisted">
+        <div class="header_more_assisted">
+          <h2 class="title_more_assisted">MAIS ASSISTIDOS</h2>
+          <section class="container_buttons_assisted">
+            <button class="pass_left_button">
               <i class="fa fa-angle-left" aria-hidden="true"></i>
             </button>
-            <button class="button_direita">
+            <button class="pass_right_button">
               <i class="fa fa-angle-right" aria-hidden="true"></i>
             </button>
           </section>
         </div>
-        
 
         <section></section>
-        <div class="container_maisAssistidos container_filmes"></div>
+        <div class="container_more_assisted container_films"></div>
       </section>
 
       <a id="ACAO"></a>
-      <div class="main_filmes main_acao">
+      <div class="main_films main_action">
         <h2 class="title">FILMES DE AÇÃO</h2>
         <div class="div_erro"></div>
         <div class="carrossel_filmes">
-          <button  class="button_esquerda button_passar">
+          <button class="pass_left_button button_passar">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
           </button>
-          <section class="container_filmes container_acao"></section>
-          <button  class="button_direita button_passar">
+          <section class="container_films container_action"></section>
+          <button class="pass_right_button button_passar">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
           </button>
         </div>
       </div>
 
       <a id="COMEDIA"></a>
-      <div class="main_filmes main_comedia">
+      <div class="main_films main_comedy">
         <h2 class="title">FILMES DE COMÉDIA</h2>
         <div class="div_erro"></div>
         <div class="carrossel_filmes">
-          <button class="button_esquerda button_passar">
+          <button class="pass_left_button button_passar">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
           </button>
-          <section class="container_filmes container_comedia"></section>
-          <button  class="button_direita button_passar">
+          <section class="container_films container_comedy"></section>
+          <button class="pass_right_button button_passar">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
           </button>
         </div>
       </div>
 
       <a id="ANIMACAO"></a>
-      <div class="main_filmes main_animacao">
+      <div class="main_films main_animation">
         <h2 class="title">FILMES DE ANIMAÇÃO</h2>
         <div class="div_erro"></div>
         <div class="carrossel_filmes">
-          <button  class="button_esquerda button_passar">
+          <button class="pass_left_button button_passar">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
           </button>
-          <section class="container_filmes container_animacao"></section>
-          <button  class="button_direita button_passar">
+          <section class="container_films container_animation"></section>
+          <button class="pass_right_button button_passar">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
           </button>
         </div>
       </div>
 
-      <div class="main_filmes main_romance">
+      <div class="main_films main_novel">
         <h2 class="title">FILMES DE ROMANCE</h2>
         <div class="div_erro"></div>
         <div class="carrossel_filmes">
-          <button  class="button_esquerda button_passar">
+          <button class="pass_left_button button_passar">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
           </button>
-          <section class="container_filmes container_romance"></section>
-          <button  class="button_direita button_passar">
+          <section class="container_films container_novel"></section>
+          <button class="pass_right_button button_passar">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
           </button>
         </div>
       </div>
     </main>
-    
+
     <script src="script/http.js"></script>
     <script src="script/script.js"></script>
-    <script src="script/filmes.js"></script>
+    <script src="script/films.js"></script>
     <script src="script/menu.js"></script>
   </body>
 </html>

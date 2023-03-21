@@ -1,4 +1,4 @@
-.areaDoFilme {
+.area_films {
   top: 0px;
   position: fixed;
   background-size: cover;
@@ -13,7 +13,7 @@
   overflow: auto;
 }
 
-.button_fechaArea {
+.button_close_area {
   border: none;
   width: 40px;
   height: 40px;
@@ -25,29 +25,29 @@
   margin: 30px;
 }
 
-.button_fechaArea:hover {
+.button_close_area:hover {
   color: gold;
   border-color: gold;
   transform: scale(1.1);
 }
 
-.button_fechaArea i {
+.button_close_area i {
   transform: scale(1.5);
 }
 
-.container_areFilme {
+.container_are_films {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cardAreaFilme {
+.card_area_films {
   text-align: center;
   width: 50%;
   height: 100%;
 }
 
-.capaFilme_area {
+.cover_films_area {
   margin: auto;
   width: 270px;
   height: 400px;
@@ -56,7 +56,7 @@
   background-position: 50% 50%;
 }
 
-.buttonArea_assistir {
+.button_area_play {
   margin: auto;
   font-family: "Lexend", sans-serif;
   font-weight: 600;
@@ -70,15 +70,15 @@
   transition: all 0.5s;
 }
 
-.buttonArea_assistir:hover {
+.button_area_play:hover {
   background-color: yellow;
 }
 
-.buttonArea_assistir i {
+.button_area_play i {
   animation: anima 2s linear infinite;
 }
 
-.inform_filme {
+.info_films {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -87,7 +87,7 @@
   height: 100%;
 }
 
-.nomeFilme_area {
+.name_films_area {
   text-align: left;
   width: 80%;
   font-family: "Righteous", cursive;
@@ -96,7 +96,7 @@
   color: white;
 }
 
-.inform_filme p {
+.info_films p {
   text-align: left;
   color: white;
   font-family: "Lexend", sans-serif;
@@ -105,11 +105,11 @@
   letter-spacing: 1px;
 }
 
-.inform_filme strong {
+.info_films strong {
   color: gold;
 }
 
-.inform_filme span {
+.info_films span {
   color: gray;
 }
 
@@ -123,7 +123,7 @@
   }
 }
 
-.main_tela {
+.main_screen {
   position: fixed;
   top: 0;
   z-index: 3;
@@ -136,14 +136,14 @@
   backdrop-filter: blur(2px);
 }
 
-.tela {
+.screen {
   text-align: center;
   width: 70%;
   height: 80%;
   background-color: #232317;
 }
 
-.barraFilme {
+.bar_films {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,7 +153,7 @@
   background-color: #232317;
 }
 
-.barraFilme p {
+.bar_films p {
   width: 100%;
   text-align: center;
   font-family: "Righteous", cursive;
@@ -161,7 +161,7 @@
   color: gold;
 }
 
-.barraFilme button {
+.bar_films button {
   width: 40px;
   height: 35px;
   border: none;
@@ -170,16 +170,16 @@
   color: gold;
 }
 
-.barraFilme i {
+.bar_films i {
   transform: scale(1.4);
   transition: all 1s;
 }
 
-.barraFilme i:hover {
+.bar_films i:hover {
   transform: scale(1.4) rotateZ(360deg);
 }
 
-.videoFilme {
+.video_films {
   margin: auto;
   width: 90%;
   height: 80%;

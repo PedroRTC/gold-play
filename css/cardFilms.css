@@ -2,27 +2,25 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-.main_filmes {
+.main_films {
   margin: auto;
   text-align: center;
   height: auto;
   padding: 20px 0px;
-  width:90% ;
+  width: 90%;
 }
-
 
 .title {
   color: rgba(220, 220, 220, 0.566);
-  width:90%;
+  width: 90%;
 
   margin: auto;
   text-align: left;
   letter-spacing: 1px;
   font-family: "Comfortaa", cursive;
   font-size: 10pt;
-  padding:0px 5px;
+  padding: 0px 5px;
   border-left: 2px solid gold;
-
 }
 
 .carrossel_filmes {
@@ -30,13 +28,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   gap: 10px;
   padding: 30px 0px;
-  border-bottom: 1px solid  rgba(220, 220, 220, 0.268);
+  border-bottom: 1px solid rgba(220, 220, 220, 0.268);
 }
-
-
 
 .button_passar {
   width: 40px;
@@ -52,8 +48,6 @@
   font-size: 18pt;
 }
 
-
-
 #button_passar:hover {
   color: gold;
   border-color: gold;
@@ -63,7 +57,7 @@
   transform: scale(1.5);
 }
 
-.container_filmes {
+.container_films {
   margin: auto;
   display: flex;
   align-items: center;
@@ -120,7 +114,7 @@
   opacity: 1;
 }
 
-.button_assistir {
+.button_Assisted {
   width: 100px;
   height: 30px;
   border: none;
@@ -130,29 +124,29 @@
   transition: all 0.3s;
 }
 
-.button_assistir:hover {
+.button_Assisted:hover {
   transform: scale(1.2);
 }
 
-.nome_filme {
+.name_films {
   font-family: "Lexend", sans-serif;
   font-size: 10pt;
   color: white;
   padding: 5px 0px;
 }
 
-.sectionEstrela {
+.star_section {
   font-family: "Lexend", sans-serif;
   color: white;
   font-size: 10pt;
 }
 
-.sectionEstrela i {
+.star_section i {
   color: gold;
-  transform: scale(1.2);
+  transform: scale(1);
   padding: 0px 3px;
 }
 
-.sectionEstrela span {
+.star_section span {
   color: gray;
 }
