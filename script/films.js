@@ -63,7 +63,6 @@ function createFilms() {
 }
 
 function checkFilmsCategory(films, card) {
-  
   if (films.categoria == "ação") {
     containerAction.appendChild(card);
   } else if (films.categoria == "comedia") {
