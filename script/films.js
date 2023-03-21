@@ -18,7 +18,7 @@ let moreAssisted = [];
 
 async function initializeFilms() {
   try {
-    allFilms = await respFilmes();
+    allFilms = await respFilms();
 
     createFilms();
     mostAssistedfilms();

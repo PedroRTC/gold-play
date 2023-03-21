@@ -1,15 +1,15 @@
 function fetchJson(url) {
-  return fetch(url).then((r) => {
-    if (r.ok) {
-      return r.json();
+  return fetch(url).then((response) => {
+    if (response.ok) {
+      return response.json();
     } else {
-      new Error(r.statusText);
+      new Error(response.statusText);
     }
   });
 }
 
-function respFilmes() {
-  return fetchJson("json/filmes.json");
+function respFilms() {
+  return fetchJson("json/films.json");
 }
 
 
