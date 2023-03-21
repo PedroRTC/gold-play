@@ -54,26 +54,25 @@ function createFilms() {
     card.appendChild(name_films);
     card.appendChild(starSection);
 
-    if (films.categoria == "ação") {
-      containerAction.appendChild(card);
-    }
-
-    if (films.categoria == "comedia") {
-      containerComedy.appendChild(card);
-    }
-
-    if (films.categoria == "animacao") {
-      containerAnimation.appendChild(card);
-    }
-
-    if (films.categoria == "romance") {
-      containerNovel.appendChild(card);
-    }
-
     container_button.addEventListener("click", () => {
       filmsSection(films);
     });
+
+    checkFilmsCategory(films, card);
   });
+}
+
+function checkFilmsCategory(films, card) {
+  
+  if (films.categoria == "ação") {
+    containerAction.appendChild(card);
+  } else if (films.categoria == "comedia") {
+    containerComedy.appendChild(card);
+  } else if (films.categoria == "animacao") {
+    containerAnimation.appendChild(card);
+  } else {
+    containerNovel.appendChild(card);
+  }
 }
 
 function searchFilms() {
