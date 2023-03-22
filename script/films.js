@@ -214,11 +214,11 @@ function filmsSection(films) {
   buttonAreaPlay.addEventListener("click", () => screenFilms(films));
 
   buttonCloseArea.addEventListener("click", () =>
-    closeSectionMovie(area_films)
+    closeSectionFilms(area_films)
   );
 }
 
-function closeSectionMovie(area_films) {
+function closeSectionFilms(area_films) {
   area_films.style.transform = "translateY(150%)";
   setTimeout(() => {
     window.document.body.removeChild(area_films);

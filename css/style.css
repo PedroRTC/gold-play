@@ -9,6 +9,10 @@
 body {
   background-color: #232317;
 }
+main {
+  margin: auto;
+  width: 90%;
+}
 
 body::-webkit-scrollbar {
   width: 3px;
@@ -48,7 +52,7 @@ header {
 .desc_header {
   font-family: "Barlow Condensed", sans-serif;
   width: 100%;
-  line-height: 35px;
+  line-height: 45px;
 }
 
 .estrelas_header {
@@ -96,7 +100,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   z-index: 2;
-  transition:all 0.3s;
+  transition: all 0.3s;
 }
 
 .container_menu {
@@ -128,8 +132,9 @@ nav {
   padding: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  
 }
-.container_search{
+.container_search {
   display: flex;
   justify-content: center;
   background-color: transparent;
@@ -146,7 +151,7 @@ nav {
   border-radius: 10px;
   border: none;
   background-color: transparent;
-  color:gainsboro;
+  color: gainsboro;
 }
 
 .fa-search {
@@ -185,7 +190,6 @@ nav {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: auto;
-
 }
 
 .container_filter::-webkit-scrollbar {
@@ -290,10 +294,6 @@ nav {
   z-index: -1;
 }
 
-.selection {
-  transition: all 0.3s;
-  color: gold;
-}
 
 .container_filme {
   position: fixed;
@@ -343,4 +343,71 @@ nav {
   width: 90%;
   height: 85%;
   background-color: black;
+}
+
+@media screen and (max-width:850px) {
+  nav{
+    justify-content:center;
+    padding: 0;
+    gap: 3px;
+
+  }
+  .container_menu{
+    display: none;
+  }
+
+
+  .container_header{
+    display: inline-block;
+  }
+
+  .estrelas_header{
+    justify-content: flex-start;
+  }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+  .container_logo{
+    padding: 0px;
+    margin: 0px 5px;
+    justify-content: center;
+
+  }
+
+  .name_logo{
+    font-size: 12pt;
+  }
+
+  .container_search_message{
+    width:auto;
+    justify-content:center;
+    padding:20px 5px ;
+    gap:10px;
+ 
+
+   
+  }
+
+  .container_search{
+    width:130px ;
+   padding: 5px;
+ 
+  }
+
+  #input_search{
+       width:100%;
+       
+  }
+
+  .fa-search{
+    transform: scale(1);
+  }
+
+  .button_message{
+    margin: 0px 0px;
+  }
+
 }
