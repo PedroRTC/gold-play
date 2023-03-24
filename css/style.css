@@ -72,7 +72,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 .name_logo {
@@ -175,6 +175,16 @@ nav {
   cursor: pointer;
   font-size: 10pt;
   margin: 0px 10px;
+}
+
+.button_menu_mobile{
+     width:30px ;
+     height:30px ;
+     border: none;
+     color: gainsboro;
+    background-color: transparent;
+    font-size: 16pt;
+    display: none;
 }
 
 .container_filter {
@@ -347,11 +357,14 @@ nav {
 
 @media screen and (max-width:850px) {
   nav{
-    justify-content:center;
+    justify-content:space-evenly;
     padding: 0;
-    gap: 3px;
 
   }
+
+  .button_menu_mobile{
+    display:block;
+ }
   .container_menu{
     display: none;
   }
@@ -392,8 +405,10 @@ nav {
   }
 
   .container_search{
-    width:130px ;
-   padding: 5px;
+    width: 80%;
+     padding:5px;
+    
+     
  
   }
 
@@ -408,6 +423,9 @@ nav {
 
   .button_message{
     margin: 0px 0px;
+    display:none ;
   }
+
+  
 
 }
